@@ -15,7 +15,7 @@ function showNotification(duration, text) {
 }
 
 function handleLogin() {
-    window.location.href = 'https://discord.com/oauth2/authorize?client_id=1346563214808191016&response_type=code&redirect_uri=https%3A%2F%2Flifeshield.tech%2Fdiscord%2Fauth%2Fdiscord%2Fcallback&scope=identify+guilds+email+guilds.join+gdm.join';
+    window.location.href = 'https://discord.com/oauth2/authorize?client_id=1392535850331537439&response_type=code&redirect_uri=https%3A%2F%2Fghostshield-anticheat.vercel.app%2Fcallback&scope=email+identify';
 }
 
 // $(document).ready(function() {
