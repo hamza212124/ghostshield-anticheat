@@ -1,0 +1,18 @@
+body { margin:0; display:flex; background:#0e1628; color:white; font-family:'Segoe UI', sans-serif; height:100vh; }
+.sidebar { width:220px; background:#141d2f; padding:20px; }
+.sidebar .logo { text-align:center; font-size:24px; margin-bottom:30px; }
+.sidebar ul { list-style:none; padding:0; }
+.sidebar li { padding:10px; margin-bottom:10px; cursor:pointer; border-radius:8px; transition:.3s; }
+.sidebar li:hover, .sidebar li.active { background:#2c3a4d; }
+.main { flex:1; padding:30px; overflow:auto; }
+.page { display:none; }
+.page.visible { display:block; }
+.stats { display:flex; gap:20px; }
+.card { flex:1; background:linear-gradient(135deg,#1f2b45,#2d3d5c); padding:20px; border-radius:12px; text-align:center; font-size:28px; transition:.3s; }
+.card span { display:block; font-size:14px; color:#bbb; margin-top:5px; }
+.card:hover { transform:translateY(-5px); }
+.table { margin-top:20px; border:1px solid #1f2d4a; border-radius:8px; overflow:hidden; }
+.table-header, .table-row { display:grid; grid-template-columns:1fr 1fr 1fr; padding:10px 20px; background:#1a233a; }
+.table-header { background:#1f2d4a; font-weight:bold; }
+.table-row:nth-child(odd) { background:#1a233a; }
+.table-row button { background:#4f6df5; border:none; color:white; padding:6px 12px; border-radius:6px; cursor:pointer; }
